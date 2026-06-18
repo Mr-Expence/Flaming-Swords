@@ -1,0 +1,144 @@
+{
+  "format_version": "1.0.0",
+  "items": {
+    "fire_aspect_sword": {
+      "model": "flame_sword",
+      "conditions": [
+        {
+          "type": "enchantment",
+          "enchantment": "minecraft:fire_aspect"
+        }
+      ]
+    },
+    "wooden_sword_flame": {
+      "model": "flame_sword",
+      "items": ["minecraft:wooden_sword"],
+      "conditions": [
+        {
+          "type": "enchantment",
+          "enchantment": "minecraft:fire_aspect"
+        }
+      ]
+    },
+    "stone_sword_flame": {
+      "model": "flame_sword",
+      "items": ["minecraft:stone_sword"],
+      "conditions": [
+        {
+          "type": "enchantment",
+          "enchantment": "minecraft:fire_aspect"
+        }
+      ]
+    },
+    "iron_sword_flame": {
+      "model": "flame_sword",
+      "items": ["minecraft:iron_sword"],
+      "conditions": [
+        {
+          "type": "enchantment",
+          "enchantment": "minecraft:fire_aspect"
+        }
+      ]
+    },
+    "golden_sword_flame": {
+      "model": "flame_sword",
+      "items": ["minecraft:golden_sword"],
+      "conditions": [
+        {
+          "type": "enchantment",
+          "enchantment": "minecraft:fire_aspect"
+        }
+      ]
+    },
+    "diamond_sword_flame": {
+      "model": "flame_sword",
+      "items": ["minecraft:diamond_sword"],
+      "conditions": [
+        {
+          "type": "enchantment",
+          "enchantment": "minecraft:fire_aspect"
+        }
+      ]
+    },
+    "netherite_sword_flame": {
+      "model": "flame_sword",
+      "items": ["minecraft:netherite_sword"],
+      "conditions": [
+        {
+          "type": "enchantment",
+          "enchantment": "minecraft:fire_aspect"
+        }
+      ]
+    },
+    "wooden_spear_flame": {
+      "model": "flame_spear",
+      "items": ["minecraft:wooden_spear"],
+      "conditions": [
+        {
+          "type": "enchantment",
+          "enchantment": "minecraft:fire_aspect"
+        }
+      ]
+    },
+    "copper_spear_flame": {
+      "model": "flame_spear",
+      "items": ["minecraft:copper_spear"],
+      "conditions": [
+        {
+          "type": "enchantment",
+          "enchantment": "minecraft:fire_aspect"
+        }
+      ]
+    },
+    "stone_spear_flame": {
+      "model": "flame_spear",
+      "items": ["minecraft:stone_spear"],
+      "conditions": [
+        {
+          "type": "enchantment",
+          "enchantment": "minecraft:fire_aspect"
+        }
+      ]
+    },
+    "iron_spear_flame": {
+      "model": "flame_spear",
+      "items": ["minecraft:iron_spear"],
+      "conditions": [
+        {
+          "type": "enchantment",
+          "enchantment": "minecraft:fire_aspect"
+        }
+      ]
+    },
+    "golden_spear_flame": {
+      "model": "flame_spear",
+      "items": ["minecraft:golden_spear"],
+      "conditions": [
+        {
+          "type": "enchantment",
+          "enchantment": "minecraft:fire_aspect"
+        }
+      ]
+    },
+    "diamond_spear_flame": {
+      "model": "flame_spear",
+      "items": ["minecraft:diamond_spear"],
+      "conditions": [
+        {
+          "type": "enchantment",
+          "enchantment": "minecraft:fire_aspect"
+        }
+      ]
+    },
+    "netherite_spear_flame": {
+      "model": "flame_spear",
+      "items": ["minecraft:netherite_spear"],
+      "conditions": [
+        {
+          "type": "enchantment",
+          "enchantment": "minecraft:fire_aspect"
+        }
+      ]
+    }
+  }
+}
