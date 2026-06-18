@@ -1,0 +1,121 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:enchantments",
+    "value": [
+      {
+        "enchantments": "minecraft:fire_aspect"
+      }
+    ],
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": [
+            "firstperson_righthand",
+            "firstperson_lefthand"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/fire_mace",
+            "tints": []
+          }
+        },
+        {
+          "when": [
+            "thirdperson_righthand",
+            "thirdperson_lefthand"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/fire_mace"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:composite",
+        "models": [
+          {
+            "type": "minecraft:model",
+            "model": "minecraft:item/mace"
+          },
+          {
+            "type": "minecraft:model",
+            "model": "item/mace_fire"
+          }
+        ]
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {}
+      ],
+      "on_true": {
+        "type": "minecraft:select",
+        "property": "minecraft:display_context",
+        "cases": [
+          {
+            "when": [
+              "fixed",
+              "ground"
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "item/mace"
+            }
+          },
+          {
+            "when": [
+              "gui"
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/mace"
+            }
+          },
+          {
+            "when": [
+              "firstperson_lefthand",
+              "firstperson_righthand"
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "item/mace_hand"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "item/mace_hand"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:select",
+        "property": "minecraft:display_context",
+        "cases": [
+          {
+            "when": [
+              "fixed",
+              "ground",
+              "gui"
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "item/mace"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "item/3d_mace"
+        }
+      }
+    }
+  },
+  "oversized_in_gui": true
+}

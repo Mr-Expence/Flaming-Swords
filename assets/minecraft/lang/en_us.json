@@ -1,0 +1,28 @@
+{
+    "rpo.flamingSwords": "Flaming Swords",
+    "rpo.flamingSwords.tooltip": "§oMade by Mr_Expence",
+
+    "rpo.flamingSwords.outline": "Enchantment Outlines Compatibility",
+    "rpo.flamingSwords.outline.tooltip": "Compatibility with tixul\u0027s Enchantment Outlines",
+
+    "rpo.flamingSwords.outline.no": "§cFalse",
+    "rpo.flamingSwords.outline.yes": "§aTrue",
+
+    "rpo.flamingSwords.volume": "HMI Swing Volume",
+    "rpo.flamingSwords.volume.tooltip": "Volume for the swing using HMI",
+
+    "rpo.flamingSwords.light": "Emits Light",
+    "rpo.flamingSwords.light.tooltip": "Emits Light using LambDynamicLights",
+
+    "rpo.flamingSwords.mace": "Mace Model",
+    "rpo.flamingSwords.mace.tooltip": "Enables the Mace model for Flaming Swords",
+
+    "rpo.flamingSwords.bow": "Bow Model",
+    "rpo.flamingSwords.bow.tooltip": "Enables the Bow model for Flaming Swords",
+
+    "rpo.flamingSwords.threedbow": "3D Bow Model",
+    "rpo.flamingSwords.threedbow.tooltip": "A 3D Arrow from tixul\u0027s Enchantment Outlines",
+    
+    "rpo.flamingSwords.threedmace": "3D Mace Model",
+    "rpo.flamingSwords.threedmace.tooltip": "A 3D Mace from tixul\u0027s Enchantment Outlines"
+}

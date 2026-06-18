@@ -1,0 +1,19 @@
+{
+    id: "flamingSwords",
+    version: 13,
+    capabilities: ["FileFilter", "DirFilter"],
+    conf: {
+        outline: ["no", "yes"],
+        light: true,
+        volume: { 
+        type: "number",
+        default: 0.3,
+        min: 0,
+        max: 1
+        },
+        threedbow: true,
+        threedmace: true,
+        bow: true,
+        mace: true
+    }
+}

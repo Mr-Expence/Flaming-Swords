@@ -1,0 +1,78 @@
+{
+	"master.tool_sound_hmi": {
+		"sounds": [
+			{
+			  "name": "master/tool_sound_hmi1",
+			  "pitch": 0.90
+			},
+						{
+			  "name": "master/tool_sound_hmi1",
+			  "pitch": 0.95
+			},
+			{
+			  "name": "master/tool_sound_hmi1",
+			  "pitch": 1.00
+			},
+			{
+			  "name": "master/tool_sound_hmi1",
+			  "pitch": 1.10
+			},
+			{
+			  "name": "master/tool_sound_hmi1",
+			  "pitch": 1.20
+			},
+			{
+			  "name": "master/tool_sound_hmi1",
+			  "pitch": 1.30
+			},
+			{
+			  "name": "master/tool_sound_hmi2",
+			  "pitch": 0.90
+			},
+						{
+			  "name": "master/tool_sound_hmi2",
+			  "pitch": 0.95
+			},
+			{
+			  "name": "master/tool_sound_hmi2",
+			  "pitch": 1.00
+			},
+			{
+			  "name": "master/tool_sound_hmi2",
+			  "pitch": 1.10
+			},
+			{
+			  "name": "master/tool_sound_hmi2",
+			  "pitch": 1.20
+			},
+			{
+			  "name": "master/tool_sound_hmi2",
+			  "pitch": 1.30
+			},
+			{
+			  "name": "master/tool_sound_hmi3",
+			  "pitch": 0.90
+			},
+						{
+			  "name": "master/tool_sound_hmi3",
+			  "pitch": 0.95
+			},
+			{
+			  "name": "master/tool_sound_hmi3",
+			  "pitch": 1.00
+			},
+			{
+			  "name": "master/tool_sound_hmi3",
+			  "pitch": 1.10
+			},
+			{
+			  "name": "master/tool_sound_hmi3",
+			  "pitch": 1.20
+			},
+			{
+			  "name": "master/tool_sound_hmi3",
+			  "pitch": 1.30
+			}
+		]
+	}
+}

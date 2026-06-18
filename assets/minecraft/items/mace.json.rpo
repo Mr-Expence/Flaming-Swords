@@ -1,0 +1,8 @@
+{
+    condition: "flamingSwords.outline.no & flamingSwords.threedmace & flamingSwords.mace",
+    fallback: [
+      "assets/minecraft/items/mace/mace.json",
+      "assets/minecraft/items/mace/mace_flat.json",
+      "assets/minecraft/items/mace/mace_flat_outline.json"
+    ]
+}
