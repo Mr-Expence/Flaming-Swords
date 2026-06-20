@@ -1,10 +1,41 @@
 {
-  "item": {
-    "SWORD": {
-      "physics": {
-        "name": "FORWARD_PENDULUM",
-        "limitDeg": 45.0,
-        "speed": 1.0
+  "itemSpecific": {
+    "minecraft:diamond_sword": {
+      "kind": "SWORD",
+      "armKind": "SWORD",
+      "physics": [
+        {
+          "name": "FULL_PENDULUM",
+          "limitDeg": 1.4,
+          "speed": 0.5
+        }
+      ],
+      "disable_sprint_lateral_tilt": true,
+      "transforms": {
+        "right": {
+          "scale": 1.2948658,
+          "offX": 0.011360884,
+          "offY": -0.08983576,
+          "offZ": 0.27862406,
+          "rotX": -21.630005,
+          "rotY": -4.58226,
+          "rotZ": 4.291916,
+          "pivotX": 0.0,
+          "pivotY": 0.03891051,
+          "pivotZ": 0.019455194
+        },
+        "left": {
+          "scale": 1.2948658,
+          "offX": -0.011360884,
+          "offY": -0.08983576,
+          "offZ": 0.27862406,
+          "rotX": -21.630005,
+          "rotY": 4.58226,
+          "rotZ": -4.291916,
+          "pivotX": -0.0,
+          "pivotY": 0.03891051,
+          "pivotZ": 0.019455194
+        }
       }
     }
   }
