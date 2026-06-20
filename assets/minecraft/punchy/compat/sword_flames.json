@@ -1,0 +1,11 @@
+{
+  "item": {
+    "SWORD": {
+      "physics": {
+        "name": "FULL_PENDULUM",
+        "limitDeg": 25.0,
+        "speed": 1.0
+      }
+    }
+  }
+}
