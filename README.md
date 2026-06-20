@@ -1,5 +1,4 @@
-<center>
-
+<div align="center">
 <img src="https://cdn.modrinth.com/data/EcjQY7O3/images/bec8993225998c596614286151f92c57ecc3435c.png" width="700" alt="Flaming Swords Logo"><br>
 
 ## Makes the Fire Aspect Enchantment show flames
@@ -40,4 +39,4 @@ If there is no animations try turning off `Animate Only Visible Textures` in the
 All my projects that have been uploaded on Modrinth, Curseforge, and PlanetMinecraft have All Rights Reserved.
 
 Copyright © 2025-present Mr_Expence
-</center>
+</div>
