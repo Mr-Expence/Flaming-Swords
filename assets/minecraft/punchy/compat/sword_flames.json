@@ -1,7 +1,6 @@
 {
-  "itemSpecific": {
-    "minecraft:diamond_sword": {
-      "kind": "SWORD",
+  "item": {
+    "SWORD": {
       "armKind": "SWORD",
       "physics": [
         {

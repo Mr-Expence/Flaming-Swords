@@ -1,0 +1,23 @@
+{
+  "items": ["minecraft:copper_sword"],
+  "geo": "minecraft:punchy/model_parts_items/geo/sword_flames.geo.json",
+  "texture": "minecraft:punchy/model_parts_items/textures/copper_sword",
+  "disable_pendulum_bones": ["handle", "blade", "hilt"],
+  "bone_textures": [
+    {
+      "texture": "minecraft:punchy/model_parts_items/textures/copper_sword",
+      "bones": ["handle", "blade", "hilt"]
+    },
+    {
+      "texture": "minecraft:punchy/model_parts_items/textures/sword/copper_fire",
+      "bones": ["flame"]
+    }
+  ],
+  "bone_texture_anim": {
+    "flame": {
+      "frames": 8,
+      "frametime": 2,
+      "frame_height": 32
+    }
+  }
+}
